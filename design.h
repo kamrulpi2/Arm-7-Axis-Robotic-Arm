@@ -532,7 +532,7 @@ const char HTML_CONTENT[] PROGMEM = R"rawliteral(
                 • <strong>Mutex Protection:</strong> Thread-safe servo & relay access<br>
                 <br>
                 <strong>Max Recording:</strong> 50 positions per sequence<br>
-                <strong>Connected to:</strong> ArmoNex Robot (192.168.4.1)
+                <strong>Connected to:</strong> Tech Bee (192.168.4.1)
             </div>
         </div>
 
