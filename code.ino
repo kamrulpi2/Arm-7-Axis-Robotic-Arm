@@ -76,7 +76,7 @@ SemaphoreHandle_t relayMutex;
 String currentStatusMsg = "Ready";
 
 // ===================== WIFI SETUP =====================
-const char *ssid = "ArmoNex Robot";
+const char *ssid = "Tech Bee";
 const char *password = "12345678";
 const byte DNS_PORT = 53;
 IPAddress apIP(192, 168, 4, 1);
