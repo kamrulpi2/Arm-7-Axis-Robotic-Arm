@@ -228,7 +228,7 @@ void wifiTask(void *parameter) {
   });
   
   server.begin();
-  Serial.println("[CORE 0] Web Server Started - Connect to ArmoNex Robot");
+  Serial.println("[CORE 0] Web Server Started - Connect to Tech Bee");
   Serial.println("[CORE 0] IP: 192.168.4.1");
   
   // WiFi loop
@@ -402,7 +402,7 @@ void setup() {
   relayMutex = xSemaphoreCreateMutex();
   controlQueue = xQueueCreate(20, sizeof(CommandMessage));
   
-  Serial.println("\n\n=== ArmoNex Robot RTOS Starting ===");
+  Serial.println("\n\n=== Tech Bee RTOS Starting ===");
   Serial.println("Initializing Dual-Core System...");
   
   // Create WiFi task on Core 0
