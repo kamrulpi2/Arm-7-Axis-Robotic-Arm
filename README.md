@@ -104,8 +104,8 @@ project/
 ```
 
 ### To Use:
-1. Create a new Arduino sketch folder: `ArmoNexRobot`
-2. Copy `code.ino` into `ArmoNexRobot.ino`
+1. Create a new Arduino sketch folder: `Tech Bee`
+2. Copy `code.ino` into `Tech Bee.ino`
 3. Create new file `design.h` in same folder
 4. Paste contents from provided `design.h`
 5. Upload to ESP32
@@ -185,7 +185,7 @@ typedef struct {
 
 ### Connecting
 1. Open WiFi settings on phone/tablet/laptop
-2. Connect to "ArmoNex Robot"
+2. Connect to "Tech Bee"
 3. Enter password: `12345678`
 4. Open browser
 5. Navigate to `http://192.168.4.1/`
@@ -329,7 +329,7 @@ Search in `design.h`:
 - ✓ View serial monitor (115200 baud) for errors
 
 ### Issue: WiFi Not Connecting
-- ✓ Verify SSID "ArmoNex Robot" is broadcasting
+- ✓ Verify SSID "Tech Bee" is broadcasting
 - ✓ Check password "12345678"
 - ✓ Try connecting to WiFi manually
 - ✓ Check IP: 192.168.4.1
@@ -359,7 +359,7 @@ Search in `design.h`:
 Expected startup sequence:
 ```
 [CORE 0] WiFi Task Started
-[CORE 0] Web Server Started - Connect to ArmoNex Robot
+[CORE 0] Web Server Started - Connect to Tech Bee
 [CORE 0] IP: 192.168.4.1
 [CORE 1] Control Task Started
 === System Ready ===
@@ -421,4 +421,4 @@ For bugs or improvements, check:
 - GPIO availability on your board model
 - WiFi bandwidth in your area
 
-Enjoy your ArmoNex Robot! 🚀🤖
+Enjoy your Tech Bee ! 🚀🤖
